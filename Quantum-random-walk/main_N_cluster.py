@@ -3,7 +3,7 @@ import numpy as np
 from qutip import *
 import shutil
 from functions_definition import *
-from anw_N import main_data
+from anw_N_data import main_data
 
 
 # Coupling constant C0
