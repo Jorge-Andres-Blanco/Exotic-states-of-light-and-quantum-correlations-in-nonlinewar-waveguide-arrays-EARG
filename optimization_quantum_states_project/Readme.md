@@ -12,4 +12,6 @@ The .csv can be later used by the "main program", which takes automatically grab
 With this output state, one can compare the results from the Mathematica notebook and the python simulation to see if the first is accurate enogh and compare the fidelities given by the mathematica and python simulations.
 It is expected that the python numerical simulation gives more accurate results, for this reason, it is considered as a reference.
 
+At the end all the results from the simulations should be in the .csv file, notice that the name of this file depends on the measurements you want to perform to the state, so there can be some conflicts if you are running the mathematica notebook for different target states in the same file. To solve this issue, create a folder for each target state that you want and move all the mathematica and .py files to it.
+
 Finally, it is important to mention that "main_program.py" must be runned in the same folder as the .csv file and all the other .py files (functions) are. Otherwise it will output a FileNotFoundError.
