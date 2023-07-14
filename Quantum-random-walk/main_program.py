@@ -14,7 +14,7 @@ import numpy as np
 from qutip import *
 import shutil
 from functions_definition import *
-from anw_N7 import *
+from anw_N_data import *
 
 
 #Calculates the evolved state given the phase angles phi_1,phi_2 and the coupling constant C0
